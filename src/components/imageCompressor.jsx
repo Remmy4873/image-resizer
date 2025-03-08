@@ -54,7 +54,7 @@ export default class ImageCompressor extends React.Component {
 
       this.setState({
         compressedLink: downloadLink,
-        clicked: true,
+        
       });
     } catch (error) {
       console.error("Compression error:", error);
@@ -63,7 +63,7 @@ export default class ImageCompressor extends React.Component {
 
   render() {
     return (
-      <div className="m-5">
+      <div className="container mt-5">
         <div className="text-dark text-center">
           <h1>Three Simple Steps:</h1>
           <h3>1. Upload your image</h3>
